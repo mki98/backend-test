@@ -30,5 +30,5 @@ app.use(errorHandler)
   }catch(e){
     console.log(e)
   }
-const port = PORT || 3000;
+const port = PORT || 8000;
 app.listen(PORT, () => console.log(`Server running on port ${port}`));
